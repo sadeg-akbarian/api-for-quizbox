@@ -1,0 +1,1282 @@
+{
+  "highscore": [
+    {
+      "id": "9b2e970b-307a-4754-a35e-4e16ecc8d65b",
+      "name": "JohnDoe",
+      "amountOfQuestions": 5,
+      "elapsedTime": 122,
+      "passedRatio": "60%",
+      "result": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "name": "DustyCake33",
+      "amountOfQuestions": 5,
+      "elapsedTime": 233,
+      "passedRatio": "100%",
+      "result": [
+        5,
+        5
+      ]
+    },
+    {
+      "id": "SneakyPete",
+      "name": "DustyCake33",
+      "amountOfQuestions": 10,
+      "elapsedTime": 233,
+      "passedRatio": "80%",
+      "result": [
+        8,
+        10
+      ]
+    },
+    {
+      "name": "HighFlyGuy",
+      "amountOfQuestions": 15,
+      "elapsedTime": 532,
+      "passedRatio": "33.33%",
+      "result": [
+        5,
+        15
+      ],
+      "id": "b5e66384-f0fb-4680-a278-c6cccc6065d1"
+    }
+  ],
+  "groups": [
+    {
+      "title": "Basic HTML and CSS",
+      "createdAt": 1675022427483,
+      "id": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1"
+    },
+    {
+      "title": "Basic JS",
+      "createdAt": 1675022427483,
+      "id": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55"
+    }
+  ],
+  "questions": [
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "createdAt": 1667606819049,
+      "isActive": true,
+      "id": "9b2e970b-307a-4754-a35e-4e16ecc8d65b",
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "&lt;js;gt;",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "&lt;scripting;gt;",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "&lt;javascript&gt;",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "&lt;script&gt;",
+          "isValid": true
+        }
+      ]
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "createdAt": 1667606819049,
+      "isActive": true,
+      "id": "0dcbdd75-18bf-4707-89b2-5f1897b8d6f0",
+      "question": "What is the correct HTML for referring to an external style sheet?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "&lt;style src=&quot;mystyle.css&quot;gt;",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;mystyle.css&quot;&gt;",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "&lt;stylesheet&gt;mystyle.css&lt;/stylesheet&gt;",
+          "isValid": false
+        }
+      ]
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "createdAt": 1667606819049,
+      "isActive": true,
+      "id": "0dcbdd75-ce3a-48a7-89b2-4707ad6818e1",
+      "question": "What is the correct HTML for referring to an external style sheet?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "At the end of the document.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "In the &lt;body&gt; section.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "In the &lt;head&gt; section.",
+          "isValid": true
+        }
+      ]
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "createdAt": 1667606819049,
+      "isActive": true,
+      "id": "1b54d1f0-aaef-4e1f-b7c4-d153afcd60db",
+      "question": "Which property is used to change the background color with css?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "bgcolor",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "background-color",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "color",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "coulor",
+          "isValid": false
+        }
+      ]
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "The external JavaScript file must contain the &lt;script&gt; tag.",
+      "answers": [
+        {
+          "id": 1,
+          "text": "True",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "False",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677187661810,
+      "id": "fefb286d-8bd9-4180-875a-ed7b7701e392"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "How do you create a function in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "function sayHi () {}",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "const sayHi = function () {}",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "const sayHi = () =&gt; {}",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "def my_function():",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677187908894,
+      "id": "ecdcb9e6-eb92-407b-8361-f0e0576481bb"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "Which answers result into true?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "1 == &#39;1&#39;",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "(50 + 20) / 10 &gt; 8",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "!!!!&#39;Yes&#39;",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677188483483,
+      "id": "c148b0f9-ff3e-448f-aac0-03956b199bcf"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "Which keywords can I use to create variables in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "var",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "const",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "let",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "$",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677270510995,
+      "id": "c4ba4b73-99e9-462b-9e16-e2b9642baf5e"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "Which of the answers are Primitive Data Types?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "&#39;Hello World&#39;",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "[1, 2, &#39;Test&#39;]",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "1.567",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "{ name: &#39;John&#39; }",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677270814452,
+      "id": "e5273c2e-3005-4787-b71f-ffac9e2a39f8"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "How does a FOR loop start?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "for i &lt; 5 {}",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "for(let index = 0; index &lt; 5; index++) {}",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "for(let index = 5; index &gt;= 0; index--) {}",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "let index = (5; for; index++) {}",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677271085353,
+      "id": "5c82a92f-d745-451f-a740-bd61389c30f4"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is the correct way to write a JavaScript array?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "const colors = [&#39;dodger blue&#39;, &#39;hotpink&#39;]",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "const colors = &#39;dodger blue&#39;, &#39;hotpink&#39;",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "const colors = (&#39;dodger blue&#39;, &#39;hotpink&#39;)",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "const colors = {&#39;dodger blue&#39;, &#39;hotpink&#39;}",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677271251928,
+      "id": "b0910573-62c0-4dca-aa70-e0ad112be0f5"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "JavaScript is the same as Java.",
+      "answers": [
+        {
+          "id": 1,
+          "text": "true",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "false",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677271313758,
+      "id": "9577e5d2-b0cc-4529-874a-9181c24f3b43"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "Which operator is used to assign a value to a variable?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "-",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "*",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "=",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677271391769,
+      "id": "dac1d28c-8554-4a71-847d-9a8c406046f1"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "Is JavaScript case-sensitive?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Yes",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "false",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677271463234,
+      "id": "feb086cc-8c9f-4818-83fd-00af7afdcce0"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "JavaScript is only available in a Web Browser?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Yes",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "No",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677271775485,
+      "id": "c24b1af9-6582-408d-8b97-1837e8b50e76"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "How do you get the type of a variable or a property?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "typeof myVariable",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "typeOf myVariable",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "typeOf(myVariable)",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677272031844,
+      "id": "9dc408ae-0467-4ca8-856c-c93fb274ce42"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What`s the result of &#39;2&#39; + 5?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "25",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "7",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677272145411,
+      "id": "4c6912bb-2068-48f5-8119-71a706c8d1f4"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What`s the difference between the strict equality and the equality operator ?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "strict equality operator has 3 equal signs.",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "equality operator has 2 equal signs.",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "with the strict equality operator, both values must be from the same type ",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677272464484,
+      "id": "9fc5918a-116e-4457-b8c5-55fdd5ea09ef"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What does the concatenation operator look like in JS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "+",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": ".",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "-",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "**",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677272912619,
+      "id": "b2e25072-eadd-4291-a5a9-5ccd93fd26d1"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is an array in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A function that returns a value",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A method for creating animations",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A type of loop",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "A collection of values, indexed by a key or an index",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677273305816,
+      "id": "6f00618c-509c-45ba-a342-b90da95e6312"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is a function in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A collection of instructions that perform a specific task",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "A loop that repeats a block of code until a condition is met",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A type of variable that can be changed",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A tool for creating animations",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677273363183,
+      "id": "e2209074-b03a-4491-a747-3f181f5d96c9"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is the syntax for a single-line comment in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "// comment",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "/* comment */",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "&lt;!-- comment --&gt;",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "% comment %",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677273455272,
+      "id": "3ea0fdd9-7200-4df5-9068-f5a707277304"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is an object in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A function that returns a value",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A type of loop",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A collection of key-value pairs",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "A method for creating animations",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677273515697,
+      "id": "dd880cd7-86b5-4060-a6ae-0a886fbbb308"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is the purpose of the console.log() method in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "To create a variable",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "To perform a mathematical operation",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "To display a message in the browsers devtools console",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "To create an object",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677273630955,
+      "id": "b82e3660-5ef4-4519-8c29-36caa9a43c7c"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is a method in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A collection of key-value pairs",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A way to repeat a block of code multiple times",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A function that is associated with an object and can be called on that object",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "A way to perform a mathematical operation",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677273727951,
+      "id": "a2322ae5-cc55-4ad0-8ace-12f82011ee46"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is the purpose of the if statement in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "To execute a block of code repeatedly",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "To declare a function",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "To perform a mathematical operation",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "To execute a block of code conditionally",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677273789599,
+      "id": "883fa3fa-f260-409e-927e-bbbf49fd031e"
+    },
+    {
+      "groupId": "9d5ae045-ef9a-4068-bc6c-1b102bda5f55",
+      "isActive": true,
+      "question": "What is an event in JavaScript?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A way to execute a block of code repeatedly",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A method for creating animations",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": " An action or occurrence that happens in the browser, such as a click or a page load",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "A type of variable that can be changed",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677273930445,
+      "id": "a7f4c224-d247-4530-9bed-0764707f591f"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the purpose of the flex-direction property?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "To define the main axis of a flex container.",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "To set the height and width of a flex container.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "To specify the order in which flex items appear.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "To set the background color of a flex container.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677274307886,
+      "id": "3ce82b70-6fb1-4429-98c8-aa0aa2b5977f"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is a flexbox in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A container for displaying images in a grid format.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A layout model used for arranging and aligning items within a container.",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "A function for changing the color of text in CSS.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A property used to control the size and position of elements on a webpage.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677274390577,
+      "id": "52fb0553-d2cf-486d-8ea2-8a7ac1224628"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the p tag in HTML?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A tag used to create links to other pages or resources.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A tag used to display an image on a webpage.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A tag used to format text as a paragraph.",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "A tag used to define a table in HTML.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677274468998,
+      "id": "78413fb8-b5a9-4072-8a2f-7bc62af6edbb"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the flex-shrink property?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A property that specifies the minimum size of a flex item.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A property that specifies the maximum size of a flex item.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A property that controls the ability of a flex item to shrink.",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "A property that controls the ability of a flex item to grow.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677274557855,
+      "id": "1ccfedb5-9a7c-4936-9f14-e2dcaf37e536"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the flex-basis property?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A property that specifies the initial size of a flex item.",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "A property that specifies the maximum size of a flex item.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": " A property that controls the ability of a flex item to shrink.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A property that controls the ability of a flex item to grow.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677274686767,
+      "id": "69becbce-9dad-4783-95d3-72132fee7073"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the flex-grow property in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A property that specifies the minimum size of a flex item.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A property that specifies the maximum size of a flex item.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A property that controls the ability of a flex item to shrink.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A property that controls the ability of a flex item to grow.",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677274796319,
+      "id": "d83dc02f-682b-4310-b119-f95d45990e83"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the justify-content property in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A property that aligns flex items along the horizontal axis.",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "A property that aligns flex items along the vertical axis.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A property that specifies the initial size of a flex item.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A property that controls the spacing between flex items.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677274908729,
+      "id": "e90ef47a-7a3f-4ce2-bc88-f9f4cfee4dcf"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the align-items property in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A property that aligns flex items along the horizontal axis.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A property that aligns flex items along the vertical axis.",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "A property that specifies the initial size of a flex item.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A property that controls the spacing between flex items.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677274981095,
+      "id": "9ff98631-0d98-4aa7-8f8e-3a337529653e"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the purpose of the transform property in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A property that changes the position of an element on the page.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A property that changes the size of an element on the page.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A property that changes the color of an element on the page.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A property that applies 2D or 3D transformations to an element.",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677275088825,
+      "id": "1951ea7c-88ac-4de9-bdc8-a2183d6db230"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the purpose of the transform-origin property in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A property that changes the position of an element on the page.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A property that changes the size of an element on the page.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A property that sets the origin of a transformation for an element.",
+          "isValid": true
+        },
+        {
+          "id": 4,
+          "text": "A property that applies 2D or 3D transformations to an element.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677275181385,
+      "id": "4a6dfa1c-94d1-4e69-8108-b21bf620b71e"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the purpose of the translate() function in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A function that changes the position of an element on the page.",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "A function that changes the size of an element on the page.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A function that sets the origin of a transformation for an element.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A function that applies a rotation to an element.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677275268392,
+      "id": "a17d3bb1-1cac-4aa9-9a35-7ecf0d74f452"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the purpose of the scale() function in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A function that changes the position of an element on the page.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "A function that changes the size of an element on the page.",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "A function that sets the origin of a transformation for an element.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "A function that applies a rotation to an element.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677275339921,
+      "id": "c5d6bca0-43a8-4cdb-9cca-cc4adef8e32b"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What are custom properties?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Variables in CSS that allow you to store and reuse values throughout your stylesheet.",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "Properties in CSS that allow you to create custom animations for elements on your webpage.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "Properties in CSS that allow you to adjust the opacity of an element.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "Properties in CSS that allow you to set the size of an element on your webpage.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677275716505,
+      "id": "d39e1451-0f2b-4657-9104-ae0323dd5992"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "How can a custom property be defined in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "Custom properties in CSS can be defined using the @custom at-rule.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "Custom properties in CSS can be defined using the `--` prefix followed by a property name.",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "Custom properties in CSS can be defined using the # symbol followed by a property name.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "Custom properties in CSS can be defined using the !important keyword followed by a property name.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677275844483,
+      "id": "1ae58ceb-d9bd-40a4-8915-2e34e5a8c1f7"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the background-repeat property in CSS?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "A property in CSS that specifies how an image is repeated when it doesn&#39;t fill the entire background.",
+          "isValid": true
+        },
+        {
+          "id": 2,
+          "text": "A property in CSS that specifies the color of the background.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "A property in CSS that specifies the position of the background image.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677275969725,
+      "id": "035c39fb-ddf5-4de9-b4db-b995f3060ea3"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is the class attribute in HTML good for?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "The class attribute in HTML is used to identify a specific element on a webpage.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "The class attribute in HTML is used to apply styles to a group of elements on a webpage.",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "The class attribute in HTML is used to link to an external stylesheet.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "The class attribute in HTML is used to add metadata to an element.",
+          "isValid": false
+        }
+      ],
+      "createdAt": 1677276240121,
+      "id": "91aaa6a9-dbf3-49c4-aeb0-2266338e18dc"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "What is a block element in HTML?",
+      "answers": [
+        {
+          "id": 1,
+          "text": "An element in HTML that is displayed inline and only takes up the necessary width of its content.",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "An element in HTML that is used to create only headings on a webpage.",
+          "isValid": false
+        },
+        {
+          "id": 3,
+          "text": "An element in HTML that is used to create lists on a webpage.",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "An element in HTML that is displayed as a block and takes up the full width of its parent container.",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677276408889,
+      "id": "d13130dc-f8b7-418a-ade2-ac7752d835ae"
+    },
+    {
+      "groupId": "c76668d0-ce3a-48a7-acd5-0f54ad6818e1",
+      "isActive": true,
+      "question": "Pick the answer that only contains inline elements",
+      "answers": [
+        {
+          "id": 1,
+          "text": "&lt;div&gt;, &lt;h1&gt;, &lt;ul&gt;, &lt;li&gt;",
+          "isValid": false
+        },
+        {
+          "id": 2,
+          "text": "&lt;span&gt;, &lt;a&gt;, &lt;img&gt;, &lt;strong&gt;",
+          "isValid": true
+        },
+        {
+          "id": 3,
+          "text": "&lt;p&gt;, &lt;form&gt;, &lt;input&gt;, &lt;textarea&gt;",
+          "isValid": false
+        },
+        {
+          "id": 4,
+          "text": "&lt;table&gt;, &lt;th&gt;, &lt;td&gt;, &lt;tr&gt;",
+          "isValid": true
+        }
+      ],
+      "createdAt": 1677276499955,
+      "id": "02e83822-14ff-44f1-9a9b-9a6147fc404c"
+    }
+  ]
+}
