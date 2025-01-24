@@ -12,36 +12,10 @@
 npm install
 ```
 
-### Copy .env and set Port
+### Start server
 
 ```sh
-cp .env.default .env
-```
-
-#### Example
-
-```
-APP_PORT=3000
-```
-
-### Copy db.json
-
-#### With data
-
-```sh
-cp db.json.default.data db.json
-```
-
-#### Without data
-
-```sh
-cp db.json.default.empty db.json
-```
-
-### Start dev server
-
-```sh
-npm run start:dev
+npm run start
 ```
 
 ### API Documentation
